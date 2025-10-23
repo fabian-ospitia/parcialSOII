@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ingresoBotella.css">
+    <title>Document</title>
+</head>
+<body>
+  <h3>¿Cuantas botellas deseas ingresar?</h3>
+  <!---->
+  <form action="#menu" method="get" novalidate>
+      <label>Cantidad: 
+          <input name="cantidad" type="number" required min="1" placeholder="Ingresar cantidad">
+      </label>
+      <button type="submit" class="boton">Aceptar</button>
+  </form>
+<h3>Procesando botella </h3>
+<form action="#menu" method="get" novalidate>
+      <label>Peso en gramos:
+          <input name="peso" type="number" required min="1" placeholder="Ingresar peso">
+      </label>
+      <button type="submit" class="boton">Aceptar</button>
+  </form>
+  <h4 for="valor">valor ofrecido:<a> </a><span id="saldo">$0</span></h4>
+  
+  <h3>Desea Aceptar el acreditado?</h3>
+    <button type="submit" class="boton">Aceptar</button>
+    <button type="submit" class="boton">Rechazar</button>
+
+
+
+ <div class="resultado">
+    <h3>Su saldo actual es: <span id="saldo">$0</span></h3>
+  </div>
+  <a href="login.html"><button type="submit" class="boton">Salir</button></a>
+  
+</div>
+</body>
+</html>
